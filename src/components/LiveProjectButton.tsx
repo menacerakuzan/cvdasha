@@ -5,7 +5,7 @@ interface LiveProjectButtonProps {
 export default function LiveProjectButton({ className }: LiveProjectButtonProps) {
   return (
     <button
-      className={`rounded-full font-medium uppercase tracking-widest cursor-pointer
+      className={`rounded-full font-medium cursor-pointer
         px-8 py-3 sm:px-10 sm:py-3.5
         text-sm sm:text-base
         transition-all duration-300 hover:scale-[1.03] active:scale-[0.97] ${className ?? ''}`}

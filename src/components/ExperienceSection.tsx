@@ -65,19 +65,19 @@ export default function ExperienceSection() {
               <div className="flex flex-wrap items-start justify-between gap-4 mb-6">
                 <div className="flex flex-col gap-1">
                   <span
-                    className="text-[#D7E2EA]/40 font-light uppercase tracking-widest"
+                    className="text-[#D7E2EA]/40 font-light"
                     style={{ fontSize: 'clamp(0.65rem, 1vw, 0.85rem)' }}
                   >
                     {job.period} · {job.city}
                   </span>
                   <h3
-                    className="text-[#D7E2EA] font-medium uppercase tracking-wide leading-tight"
+                    className="text-[#D7E2EA] font-semibold leading-tight"
                     style={{ fontSize: 'clamp(1.1rem, 2.5vw, 2rem)' }}
                   >
                     {job.role}
                   </h3>
                   <span
-                    className="text-[#D7E2EA]/40 font-light uppercase tracking-widest"
+                    className="text-[#D7E2EA]/40 font-light"
                     style={{ fontSize: 'clamp(0.75rem, 1.2vw, 1rem)' }}
                   >
                     {job.company}
@@ -87,7 +87,7 @@ export default function ExperienceSection() {
                 <div className="flex flex-col items-end gap-2">
                   {/* Tag */}
                   <span
-                    className="rounded-full px-4 py-1.5 text-xs font-medium uppercase tracking-widest"
+                    className="rounded-full px-4 py-1.5 text-xs font-medium"
                     style={{
                       background: 'linear-gradient(123deg, rgba(182,0,168,0.25) 0%, rgba(118,33,176,0.2) 60%, rgba(190,76,0,0.15) 100%)',
                       backdropFilter: 'blur(12px)',
@@ -101,7 +101,7 @@ export default function ExperienceSection() {
                   </span>
                   {/* Duration pill */}
                   <span
-                    className="rounded-full px-4 py-1.5 text-xs font-light uppercase tracking-widest text-[#D7E2EA]/50"
+                    className="rounded-full px-4 py-1.5 text-xs font-light text-[#D7E2EA]/50"
                     style={{
                       backdropFilter: 'blur(12px)',
                       WebkitBackdropFilter: 'blur(12px)',

@@ -101,7 +101,7 @@ export default function ContactModal({ open, onClose }: ContactModalProps) {
               >
                 Контакти
               </h3>
-              <p className="text-[#D7E2EA]/50 text-center text-sm uppercase tracking-widest mb-8">
+              <p className="text-[#D7E2EA]/50 text-center text-sm mb-8">
                 Напиши мені
               </p>
 
@@ -126,7 +126,7 @@ export default function ContactModal({ open, onClose }: ContactModalProps) {
                       {s.icon}
                     </span>
                     <div className="flex flex-col gap-0.5">
-                      <span className="font-medium text-sm uppercase tracking-widest">{s.label}</span>
+                      <span className="font-medium text-sm">{s.label}</span>
                       <span className="text-[#D7E2EA]/50 text-xs">{s.handle}</span>
                     </div>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5}

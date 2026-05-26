@@ -11,7 +11,7 @@ export default function App() {
     <div
       style={{
         background: '#0C0C0C',
-        fontFamily: "'Kanit', sans-serif",
+        fontFamily: "'Montserrat', sans-serif",
         overflowX: 'clip',
       }}
     >
