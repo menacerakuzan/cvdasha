@@ -27,7 +27,7 @@ const IMAGES = [
 const ROW1 = IMAGES.slice(0, 11);
 const ROW2 = IMAGES.slice(11);
 
-function ImageRow({ images, direction }: { images: string[]; direction: 1 | -1 }) {
+function ImageRow({ images, direction: _direction }: { images: string[]; direction: 1 | -1 }) {
   const tripled = [...images, ...images, ...images];
   return (
     <div className="flex gap-3 min-w-max">
